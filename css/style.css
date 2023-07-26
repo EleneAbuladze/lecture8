@@ -1,14 +1,114 @@
+body {
+    background-color: #F5F5F5;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
     border: 2px dotted black;
 }
+/*sectiom-1*/
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.card-1, .card-2, .card-3 {
+    width: 362px;
+    height: 400px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius:  5px;
+    vertical-align: top;
+}
+
+.card-1, .card-2 {
+    margin-right: 36px;
+}
+
+.img14, .img15, .img16 {
+    width: 100%;
+}
+
+.card-photo-wrapper {
+    position: relative;
+}
+
+h5 {
+    position: absolute;
+    top: 32px;
+    left: 41px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.img15 {
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 40px;
+    width: 345px;
+}
+
+h6 {
+    display: inline-block;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8A8787;
+}
+
+p {
+    font-family: 'Robot', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 30px;
+    width: 238px;
+    margin-bottom: 12px;
+    margin-left: 37px;
+}
+
+/*section-2*/
 h3 {
     font-family: 'roboto', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
     margin-bottom: 30px;
+}
+
+.left-wrapper {
+    width: 758px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 41px;
+}
+.img7 {
+    margin-bottom: 42px;
+    width: 100%;
+}
+
+.img9, .img10, .img11, .img12, .img13 {
+    width: 100%;
+}
+
+.right-wrapper {
+    width: 363px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img11, .img12 {
+    margin-bottom: 98px;
 }
